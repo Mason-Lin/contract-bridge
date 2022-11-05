@@ -33,5 +33,7 @@ class Card:
     def bidding(self, other):
         if self.suit.value > other.suit.value:
             return True
-        if self.suit == other.suit:
+        elif self.suit == other.suit:
             return self.number.value > other.number.value
+        else:
+            return False
