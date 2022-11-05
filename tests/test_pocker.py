@@ -18,4 +18,5 @@ def test_card_heart_ace():
 def test_card_bidding_heart_ace_can_win_heart_king():
     hearts_ace = Card(NumberEnum.ACE, SuitEnum.HEARTS)
     hearts_king = Card(NumberEnum.KING, SuitEnum.HEARTS)
-    assert hearts_ace.bidding > hearts_king.bidding
+    assert hearts_ace.bidding(hearts_king)
+    assert not hearts_king.bidding(hearts_ace)
