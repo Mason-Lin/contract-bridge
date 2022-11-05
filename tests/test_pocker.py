@@ -13,3 +13,9 @@ def test_card_heart_ace():
     assert hearts_ace.number == NumberEnum.ACE
     assert hearts_ace.suit == SuitEnum.HEARTS
     assert hearts_ace.rank == 14
+
+
+def test_card_bidding_heart_ace_can_win_heart_king():
+    hearts_ace = Card(NumberEnum.ACE, SuitEnum.HEARTS)
+    hearts_king = Card(NumberEnum.KING, SuitEnum.HEARTS)
+    assert hearts_ace.bidding > hearts_king.bidding
