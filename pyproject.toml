@@ -17,7 +17,7 @@ uvicorn = "^0.20.0"
 bandit = "^1.7.4"
 black = "^22.10.0"
 coverage = "^6.5.0"
-ipython = "^8.6.0"
+ipython = "^8.8.0"
 pre-commit = "^2.20.0"
 pylama = {extras = ["all"], version = "^8.4.1"}
 pytest = "^7.2.0"
