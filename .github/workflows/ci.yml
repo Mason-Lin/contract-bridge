@@ -3,6 +3,7 @@
 name: CI
 
 on:
+  workflow_dispatch:
   # This will run when any branch or tag is pushed
   push:
     branches:
