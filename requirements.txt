@@ -7,7 +7,7 @@ black
 coverage
 ipython
 pre-commit
-pylama["all"]
+pylama[all]
 pytest
 pytest-asyncio
 pytest-cov
