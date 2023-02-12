@@ -56,8 +56,6 @@ jobs:
           contract_bridge/user.py
       - name: Check formatting
         run: black --diff --check .
-      - name: Validate README
-        run: ./check.sh
 
   test-user:
     runs-on: "ubuntu-latest"
