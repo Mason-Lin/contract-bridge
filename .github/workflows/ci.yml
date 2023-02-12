@@ -57,7 +57,7 @@ jobs:
       - name: Check formatting
         run: black --diff --check .
       - name: Validate README
-        run: ./bin/check.sh
+        run: ./check.sh
 
   test-user:
     runs-on: "ubuntu-latest"
