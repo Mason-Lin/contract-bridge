@@ -16,7 +16,7 @@ uvicorn = "^0.21.1"
 [tool.poetry.group.dev.dependencies]
 bandit = "^1.7.5"
 black = "^22.12.0"
-coverage = "^7.2.1"
+coverage = "^7.2.2"
 ipython = "^8.11.0"
 pre-commit = "^3.2.1"
 pylama = {extras = ["all"], version = "^8.4.1"}
