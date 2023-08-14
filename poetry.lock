@@ -1282,13 +1282,13 @@ testing = ["fields", "hunter", "process-tests", "pytest-xdist", "six", "virtuale
 
 [[package]]
 name = "pytest-httpx"
-version = "0.22.0"
+version = "0.23.1"
 description = "Send responses to httpx."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.9"
 files = [
-    {file = "pytest_httpx-0.22.0-py3-none-any.whl", hash = "sha256:cefb7dcf66a4cb0601b0de05e576cca423b6081f3245e7912a4d84c58fa3eae8"},
-    {file = "pytest_httpx-0.22.0.tar.gz", hash = "sha256:3a82797f3a9a14d51e8c6b7fa97524b68b847ee801109c062e696b4744f4431c"},
+    {file = "pytest_httpx-0.23.1-py3-none-any.whl", hash = "sha256:ba38a9e6c685d3cf6197551a79bf7e41f8bbc57a6d1de65b537f77e87f56ecd3"},
+    {file = "pytest_httpx-0.23.1.tar.gz", hash = "sha256:cfed19eb8b13cbdf464bbb1c4ef88717d88d42334aa9ce516e56e46975c77f74"},
 ]
 
 [package.dependencies]
@@ -1296,7 +1296,7 @@ httpx = "==0.24.*"
 pytest = ">=6.0,<8.0"
 
 [package.extras]
-testing = ["pytest-asyncio (==0.20.*)", "pytest-cov (==4.*)"]
+testing = ["pytest-asyncio (==0.21.*)", "pytest-cov (==4.*)"]
 
 [[package]]
 name = "pytest-mock"
@@ -1922,4 +1922,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "957f8c28f0dda4a80c0a4487401dbc62f8231b180c98bf2fee553be8b1c7eff2"
+content-hash = "579b0dfcd5f16d1ff401fa88a83e93b74e2533af21534e60317d48a4d56c3348"
