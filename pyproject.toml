@@ -10,7 +10,7 @@ version = "0.1.0"
 [tool.poetry.dependencies]
 fastapi = "^0.101.1"
 python = "^3.9"
-tenacity = "^8.2.2"
+tenacity = "^8.2.3"
 uvicorn = "^0.23.2"
 
 [tool.poetry.group.dev.dependencies]
