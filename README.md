@@ -1,2 +1,3 @@
 # contract-bridge
-code for fun, contract bridge game
+code for fun, pratice dependabot
+I didn't implement contract bridge game
